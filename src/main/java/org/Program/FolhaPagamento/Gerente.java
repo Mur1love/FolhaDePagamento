@@ -33,7 +33,7 @@ public class Gerente {
     public boolean isBateuAMeta() {
         return bateuAMeta;
     }
-
+                
     public void setBateuAMeta(boolean bateuAMeta) {
         this.bateuAMeta = bateuAMeta;
     }
