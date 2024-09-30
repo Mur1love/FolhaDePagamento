@@ -11,7 +11,7 @@ public class Assistente extends Pessoa {
     @Override
     public void mostrarDados(){
         System.out.println("DADOS DO ASSISTENTE:");
-        super.mostrarDados();
+        super.mostrarDados(true);
         System.out.println("Turno: " + turno);
     }
 

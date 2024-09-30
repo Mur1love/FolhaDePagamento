@@ -1,6 +1,6 @@
 package org.Program.heranca;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
 
@@ -14,6 +14,13 @@ public class Pessoa {
     public void mostrarDados(){
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
+    }
+
+    public void mostrarDados(boolean mostrarIdade){
+        System.out.println("Nome: " + nome);
+        if(mostrarIdade){
+            System.out.println("Idade: " + idade);
+        }
     }
 
     public String getNome() {
